@@ -3,6 +3,7 @@ layout: page
 title: Ravings of a Mad Engineer
 tagline: High altitude ballooning, robotics, UAS, communications
 ---
+View my github activity [here](https://github.com/ethanharstad).
 
 I have just recently started moving stuff to GitHub, expect more content here soon.
 
