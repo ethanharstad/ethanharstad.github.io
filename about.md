@@ -29,6 +29,7 @@ Harstad, E., “Analysis of Balloon Trajectory Prediction Methods,” _Academic 
 Nelson, M., Harstad, E., and Reis, C., “Modular Electronics System for the HABET Program at ISU,” _Academic High Altitude Conference_, June 2010.
 
 ### Employment
+
 #### Research Engineer - Aerodyne Labs
 2011 - Present  
 Design, develop, prototype, and debug electrical hardware and firmware. Design, develop, and support computer software. Design and fabricate aerospace systems: spacecraft structures, robotics.
