@@ -1,3 +1,9 @@
+---
+layout: page
+title: About
+tagline: Ethan Harstad
+---
+
 ## Ethan E. Harstad
 > 407 S. 5th St., Apt 152  
 > Ames, IA 50010  
