@@ -1,7 +1,8 @@
 ---
 layout: page
 title: About
-tagline: Ethan Harstad
+tagline: CV
+group: navigation
 ---
 
 ## Ethan E. Harstad
