@@ -4,6 +4,7 @@ title: Ravings of a Mad Engineer
 tagline: High altitude ballooning, robotics, UAS, communications
 ---
 [GitHub](https://github.com/ethanharstad) - 
+[Hackaday Projects](http://hackaday.io/hacker/28793) - 
 [@nv1k](https://twitter.com/NV1K) - 
 [Google+](https://plus.google.com/113570820998505644644/posts)
 
