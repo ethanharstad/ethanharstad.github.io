@@ -125,3 +125,5 @@ JB :
 
 # Upgrade markdown interpreter  
 markdown: kramdown
+
+theme: jekyll-theme-tactile
