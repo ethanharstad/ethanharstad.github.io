@@ -6,9 +6,6 @@ group: navigation
 ---
 
 ## Ethan E. Harstad
-> 407 S. 5th St., Apt 152  
-> Ames, IA 50010  
-> (515) 999-0334  
 > ethanharstad@gmail.com  
 
 ### Education & Qualifications
