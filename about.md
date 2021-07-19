@@ -41,13 +41,23 @@ Full-stack software development of a laboratory information management system in
 - laboratory instrument interface and control software
 
 #### Research Engineer - Aerodyne Labs
-2014 - 2015
-Design, develop, prototype, and debug electrical hardware and firmware. Design, develop, and support computer software. Design and fabricate aerospace systems: spacecraft structures, robotics.
+
+**2014 - 2015**
+
+Design, develop, prototype, and debug electrical hardware and firmware.
+Design, develop, and support computer software.
+Design and fabricate aerospace systems: spacecraft structures, robotics.
 
 #### Lead Engineer - Make to Innovate Lab, Iowa State University
-2012 - 2014  
-Manage other student engineers and lab students. Train and assist lab members with engineering and fabrication activities.
+
+**2012 - 2014**
+
+Manage other student engineers and lab students.
+Train and assist lab members with engineering and fabrication activities.
 
 #### Student Engineer - Space Systems and Controls Lab, Iowa State University
-2010 - 2012  
-Support lab members with engineering and fabrication activities. Manage lab students.
+
+**2010 - 2012**
+
+Support lab members with engineering and fabrication activities.
+Manage lab students.
