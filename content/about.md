@@ -11,7 +11,7 @@ author = "Ethan Harstad"
 
 ### Employment
 
-#### Software Development Manager - Athene
+#### Senior Principal Engineer - Athene
 
 **2020 - Present**
 
