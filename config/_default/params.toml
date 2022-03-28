@@ -98,7 +98,7 @@ since = 1988
 iconsDir = "icons/" # without a leading forward slash
 
 # Show related content at the end of an article based on the 'series' taxonomy. Can be set in post front matter.
-# showRelatedInArticle = false
+showRelatedInArticle = true
 # showRelatedInSidebar = false
 
 # website author

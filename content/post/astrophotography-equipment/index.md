@@ -9,7 +9,7 @@ tags = [
 categories = [
     "astrophotography",
 ]
-series = ["Astrophotography"]
+series = ["Learning Astrophotography"]
 +++
 
 My current astrophotography setup...
@@ -26,7 +26,7 @@ My current astrophotography setup...
 - Belt driven axes
 - Vixen and Losmandy compatible saddle plate
 
-[Manufacturer Page](https://www.highpointscientific.com/sky-watcher-eq6-r-pro-mount-s30300)
+[Manufacturer Page](https://www.skywatcherusa.com/products/eq6-r-pro)
 
 ### William Optics Fluoro Star 91mm (FLT91) f/5.9 Triplet Apo refractor
 
