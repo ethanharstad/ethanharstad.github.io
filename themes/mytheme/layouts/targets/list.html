@@ -1,0 +1,38 @@
+{{ define "title" }}
+  {{ .Title }} &ndash; {{ .Site.Title }}
+{{ end }}
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  <table class="table align-middle">
+    <thead>
+      <tr>
+        <th></th>
+        <th>Name</th>
+        <th>Messier</th>
+        <th>Catalog</th>
+        <th>Type</th>
+        <th>Apparent Magnitude</th>
+        <th>Apparent Size</th>
+        <th>Photos</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{ range .Pages }}
+        <tr>
+          <td>
+            <a href="{{.RelPermalink}}">
+              <img class="img-fluid" src="{{.RelPermalink}}/{{ .Params.thumbnail }}" alt="">
+            </a>
+          </td>
+          <td><a href="{{.RelPermalink}}">{{ .Params.commonName }}</a></td>
+          <td><a href="{{.RelPermalink}}">{{ .Params.messierNumber }}</a></td>
+          <td><a href="{{.RelPermalink}}">{{ .Params.ngcNumber }}</a></td>
+          <td>{{ .Params.objectType }}</td>
+          <td>{{ .Params.apparentMagnitude }}</td>
+          <td>{{ .Params.apparentWidth }}' x {{ .Params.apparentHeight }}'</td>
+          <td>{{ len ( where .Pages "Section" "astrophotos" ) }}</td>
+        </tr>
+      {{ end }}
+    </tbody>
+  </table>
+{{ end }}

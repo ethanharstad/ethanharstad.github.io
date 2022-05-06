@@ -1,0 +1,9 @@
+{{ with . }}
+    {{ $d := math.Floor . }}
+    {{ $r := sub . $d }}
+    {{ $mr := mul $r 60 }}
+    {{ $m := math.Floor $mr }}
+    {{ $r := sub $mr $m }}
+    {{ $s := mul $r 60 }}
+    {{ $d }}&deg; {{ $m }}' {{ printf "%.2f" $s }}"
+{{ end }}
