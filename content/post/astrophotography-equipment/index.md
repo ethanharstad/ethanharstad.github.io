@@ -9,14 +9,13 @@ categories:
   - "astrophotography"
 series:
   - "Learning Astrophotography"
-featureImage: "astrophotography-rig.jpg"
-type: "featured"
-images:
-  - "images/post/post-3.jpg"
+featureImage: "astrophoto_rig.jpg"
+featureImageAlt: "Alt text"
+featureImageCap: "Image caption"
+thumbnail: "astrophoto_rig-thumb.jpg"
+featured: true
+summary: "My current astrophotography setup..."
 ---
-
-My current astrophotography setup...
-<!--more-->
 
 ## Current
 

@@ -1,19 +1,21 @@
-+++
-title = "Setting up the Sky-Watcher EQ6-R"
-date = "2022-03-26"
-description = "Setting up the Sky-Watcher EQ6-R Pro equatorial telescope mount"
-tags = [
-    "equipment",
-    "astrophotography",
-    "eq6r",
-]
-categories = [
-    "astrophotography",
-]
-series = ["Learning Astrophotography"]
-featureImage = "eq6r.jpg"
-+++
-## Overview
+---
+title: "Setting up the Sky-Watcher EQ6-R"
+date: "2022-03-26"
+description: "Setting up the Sky-Watcher EQ6-R Pro equatorial telescope mount"
+tags:
+  - "equipment"
+  - "astrophotography"
+  - "eq6r"
+categories:
+  - "astrophotography"
+series: "Learning Astrophotography"
+featureImage: "astrophoto_rig.jpg"
+featureImageAlt: "Alt text"
+featureImageCap: "Image caption"
+thumbnail: "astrophoto_rig-thumb.jpg"
+featured: true
+summary: "The Sky-Watcher EQ6-R Pro is a German Equatorial telescope mount with many improvements over other mounts that make it ideal for astrophotography."
+---
 
 The [Sky-Watcher EQ6-R Pro](https://www.skywatcherusa.com/products/eq6-r-pro) is a German Equatorial telescope mount with many improvements over other mounts that make it ideal for astrophotography.
 
@@ -71,10 +73,10 @@ Tighten the counterweights and verify that the mount is able to remain stationar
 Loosen the Declination axis clutch and rotate the axis until the telescope is parallel to the ground, resecure the clutch.
 This is the "Park" and "Home" position of the mount.
 
-{{% notice tip "Tip" %}}
+{{< notice tip "Tip" >}}
 You may get better guiding performance if you set your mount up to be "East Heavy", that is with the counterweight side being slightly heavier before meridian flip.
 This can help to reduce the effect of backlash induced oscillations in the mount.
-{{% /notice %}}
+{{< /notice >}}
 
 ## Alignment
 
@@ -82,9 +84,9 @@ Your equatorial mount needs to be aligned to the axis of rotation of the Earth i
 
 ### Preparation
 
-{{% notice tip "Tip" %}}
+{{< notice tip "Tip" >}}
 It is strongly recommended to mount and balance your telescope before performing polar alignment.
-{{% /notice %}}
+{{< /notice >}}
 
 1. When you set up your tripod you should have performed a rough alignment with the North Pole.
 If you did not, now is the time to do it (and remember how hard it is with a fully loaded mount and do it ahead of time next time).
@@ -107,15 +109,15 @@ You do not need to do this every time you use the mount (though it doesn't hurt 
 3. If the object remains at the center of the reticle then the scope is calibrated and your job is done.
 If the object moved, use the three adjustment screws on the polar scope to move the object halfway back to the center of the reticle.
 
-{{% notice warning "Warning" %}}
+{{< notice warning "Warning" >}}
 Only loosen one of the screws 1/4 turn before tightening the other two screws to prevent disengaging or damaging the pattern plate.
-{{% /notice %}}
+{{< /notice >}}
 
 4. Repeat steps 1 through 3 a few times until the object stays at the center of the reticle.
 
-{{% notice note "Note" %}}
-IF the pattern plate becomes disengaged, remove the eyepiece by turning the knurled ring counterclockwise and re-engage the pattern plate.
-{{% /notice %}}
+{{< notice note "Note" >}}
+If the pattern plate becomes disengaged, remove the eyepiece by turning the knurled ring counterclockwise and re-engage the pattern plate.
+{{< /notice >}}
 
 ### Polar Alignment
 
@@ -137,10 +139,5 @@ Get out there and observe!
 
 ## Resources
 
-{{ with .Resources.Match "eq6-r_manual.pdf" }}
-  <a href="{{ .Permalink }}">EQ6-R Pro Manual</a>
-{{ end }}
-
-{{ with .Resources.Match "synscan_manual.pdf" }}
-  <a href="{{ .Permalink }}">EQ6-R Pro Manual</a>
-{{ end }}
+- [EQ6-R Manual](eq6-r_manual.pdf)
+- [SynScan Manual](synscan_manual.pdf)

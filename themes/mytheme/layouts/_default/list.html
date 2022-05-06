@@ -4,8 +4,7 @@
 {{ range .Pages }}
 <article>
   {{ if isset .Params "thumbnail" }}
-  <img class="figure-img img-fluid float-left" src="{{.RelPermalink}}{{ .Params.thumbnail }}"
-    alt="{{ .Params.featureImageAlt }}">
+  <img class="img-fluid float-left" src="{{.RelPermalink}}{{ .Params.thumbnail }}" alt="{{ .Params.featureImageAlt }}">
   {{ end }}
   <a href="{{ .RelPermalink }}">
     <h2>{{ .Title }}</h2>
