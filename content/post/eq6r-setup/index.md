@@ -73,7 +73,7 @@ Tighten the counterweights and verify that the mount is able to remain stationar
 Loosen the Declination axis clutch and rotate the axis until the telescope is parallel to the ground, resecure the clutch.
 This is the "Park" and "Home" position of the mount.
 
-{{< notice tip "Tip" >}}
+{{< notice "primary" >}}
 You may get better guiding performance if you set your mount up to be "East Heavy", that is with the counterweight side being slightly heavier before meridian flip.
 This can help to reduce the effect of backlash induced oscillations in the mount.
 {{< /notice >}}
@@ -84,7 +84,7 @@ Your equatorial mount needs to be aligned to the axis of rotation of the Earth i
 
 ### Preparation
 
-{{< notice tip "Tip" >}}
+{{< notice "primary" >}}
 It is strongly recommended to mount and balance your telescope before performing polar alignment.
 {{< /notice >}}
 
@@ -109,13 +109,13 @@ You do not need to do this every time you use the mount (though it doesn't hurt 
 3. If the object remains at the center of the reticle then the scope is calibrated and your job is done.
 If the object moved, use the three adjustment screws on the polar scope to move the object halfway back to the center of the reticle.
 
-{{< notice warning "Warning" >}}
+{{< notice "warning" >}}
 Only loosen one of the screws 1/4 turn before tightening the other two screws to prevent disengaging or damaging the pattern plate.
 {{< /notice >}}
 
 4. Repeat steps 1 through 3 a few times until the object stays at the center of the reticle.
 
-{{< notice note "Note" >}}
+{{< notice "secondary" >}}
 If the pattern plate becomes disengaged, remove the eyepiece by turning the knurled ring counterclockwise and re-engage the pattern plate.
 {{< /notice >}}
 
