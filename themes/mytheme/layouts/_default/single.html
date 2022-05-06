@@ -2,7 +2,13 @@
 {{ .Title }} &ndash; {{ .Site.Title }}
 {{ end }}
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
+<h1>
+  {{ .Title }}
+  {{ with .Params.subtitle }}
+  <small class="text-muted">{{ . }}</small>
+  {{ end }}
+</h1>
+<div class="mb-1 text-muted">{{ .Page.Date.Format "January 2, 2006" }}</div>
 {{ if isset .Params "featureimage" }}
 <figure class="figure">
   <picture>
