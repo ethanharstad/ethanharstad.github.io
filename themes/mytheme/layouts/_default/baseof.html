@@ -3,9 +3,9 @@
 
 <head>
   <title>
-    {{ block "title" . }}
+    {{- block "title" . -}}
     {{ .Site.Title }}
-    {{ end }}
+    {{- end -}}
   </title>
   <meta charset="utf-8">
   <meta name="description" content="Website meta description for google search results go here" />
@@ -24,12 +24,13 @@
 <body>
   {{- partial "header.html" . -}}
   <div class="container">
+    {{- block "hero" . -}}{{- end -}}
     <div class="row">
       <div class="col col-md-9">
-        {{- block "main" . }}{{- end }}
+        {{- block "main" . -}}{{- end -}}
       </div>
       <div class="col col-md-3">
-        Sidebar
+        {{- block "sidebar" . -}}{{- end -}}
       </div>
     </div>
   </div>
