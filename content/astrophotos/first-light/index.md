@@ -1,6 +1,7 @@
 ---
 title: "First Light"
 subtitle: "Bode's and Cigar Galaxies"
+date: "2022-05-10"
 description: "Article description."
 draft: true
 featureImage: "LRGB_1.jpg"
