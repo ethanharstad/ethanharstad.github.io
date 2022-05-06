@@ -1,0 +1,9 @@
+{{ with . }}
+    {{ $h := math.Floor ( div . 15 ) }}
+    {{ $r := sub . ( mul $h 15 ) }}
+    {{ $mr := div $r 0.25 }}
+    {{ $m := math.Floor $mr }}
+    {{ $r := sub $mr $m }}
+    {{ $s := mul $r 60 }}
+    {{ $h }}h {{ $m }}m {{ printf "%.2f" $s }}s
+{{ end }}

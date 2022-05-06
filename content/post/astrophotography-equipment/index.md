@@ -1,16 +1,19 @@
-+++
-title = "My Astrophotography Setup"
-date = "2022-03-24"
-description = "The equipment and software that I use for astrophotography"
-tags = [
-    "equipment",
-    "astrophotography",
-]
-categories = [
-    "astrophotography",
-]
-series = ["Learning Astrophotography"]
-+++
+---
+title: "My Astrophotography Setup"
+date: "2022-03-24"
+description: "The equipment and software that I use for astrophotography"
+tags:
+  - "equipment"
+  - "astrophotography"
+categories:
+  - "astrophotography"
+series:
+  - "Learning Astrophotography"
+featureImage: "astrophotography-rig.jpg"
+type: "featured"
+images:
+  - "images/post/post-3.jpg"
+---
 
 My current astrophotography setup...
 <!--more-->
@@ -18,6 +21,8 @@ My current astrophotography setup...
 ## Current
 
 ### Sky-Watcher EQ6R Pro equatorial mount
+
+Detailed thoughts [here]({{< ref "post/eq6r-setup" >}}).
 
 - Payload: 44lbs / 20kg
 - Mount Weight: 38lb / 17.2kg
@@ -29,6 +34,8 @@ My current astrophotography setup...
 [Manufacturer Page](https://www.skywatcherusa.com/products/eq6-r-pro)
 
 ### William Optics Fluoro Star 91mm (FLT91) f/5.9 Triplet Apo refractor
+
+Detailed thoughts [here]({{< ref "post/wo-flt91" >}}).
 
 - Lens: Aprochromatic Triplet Prime Lens
 - Lens Material: FPL-53
@@ -80,40 +87,28 @@ The combination of a monochome sensor and small pizel size lead to an impressive
 
 [Manufacturer Page](https://www.usa.canon.com/internet/portal/us/home/products/details/cameras/eos-dslr-and-mirrorless-cameras/mirrorless/eos-r)
 
-### Eyepieces
+### ZWO ASI2600MM Pro Astrophotography Camera
 
-#### Astro-Tech XWA 7mm 100° Eyepiece
+Blah blah blah
 
-- Focal Length: 7mm
-- Field of View: 100°
-- Eye Relief: 15mm
-- Barrel: 1.25"/2"
-- Element: 8
-- Weight: 17oz
+[Manufacturer Page](https://astronomy-imaging-camera.com/product/asi2600mm-pro-mono)
 
-[Manufacturer Page](https://www.astronomics.com/astro-tech-7mm-100-field-waterproof-1-25-2-eyepiece.html)
+### ZWO EFW 7x36mm filter wheel
 
-#### Astro-Tech XWA 13mm 100° Eyepiece
+120mA @ 5V, able to be powered from camera's built in USB hub
 
-- Focal Length: 13mm
-- Field of View: 100°
-- Eye Relief: 15mm
-- Barrel: 1.25"/2"
-- Element: 9
-- Weight: 19oz
+[Manufacturer Page](https://astronomy-imaging-camera.com/product/new-zwo-efw-7x36mm)
 
-[Manufacturer Page](https://www.astronomics.com/astro-tech-13mm-100-field-waterproof-1-25-2-eyepiece.html)
+### Pegasus Astro FocusCube 2 auto focuser
+
+Blah
+
+### Pegasus Astro Powerbox Advance
+
+Blah
 
 ## Future
 
-### Computerized automation
+### Custom battery supply
 
-There are a lot of approaches to this, the few that I'm planning to evaluate are:
-
-- ZWO ASIAir Plus fully integrated hardware/software solution
-- Astroberry or similar RaspberryPi based open source software solution
-- A Windows based mini pc to run a standard astrophotography suite like APT or SGP
-
-### ZWO ASI2600 Pro Astrophotography Camera
-
-Still evaluating if I want to get a one-shot color or monochrome camera with filter wheel for my first dedicated astrophotography camera.
+Dark sky sites don't have electricity.
