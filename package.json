@@ -1,0 +1,22 @@
+{
+  "name": "ethanharstad.github.io",
+  "version": "1.0.0",
+  "description": "This repository houses my public site hosted at [harstad.co](https://harstad.co).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethanharstad/ethanharstad.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ethanharstad/ethanharstad.github.io/issues"
+  },
+  "homepage": "https://github.com/ethanharstad/ethanharstad.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}

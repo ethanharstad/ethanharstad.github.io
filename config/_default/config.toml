@@ -1,14 +1,21 @@
-baseurl = "https://harstad.co/"
-paginate = 10
-theme = "hugo-clarity"
-disqusShortname = ""
-
-DefaultContentLanguage = "en"
+######################## default configuration ####################
+baseURL = "https://harstad.co/"
+title = "Ravings of a Mad Engineer"
+theme = "mytheme"
+disqusShortname = "madengineer"
 
 [taxonomies]
-category = "categories"
-tag = "tags"
-series = "series"
+  category = 'categories'
+  series = 'series'
+  target = 'targets'
+  image-series = 'image-series'
+  image-session = 'image-sessions'
 
-[outputs]
-  home = ["HTML", "RSS","JSON"]
+############################# Modules ##############################
+[module]
+  [module.hugoVersion]
+    extended = true
+    # min = "0.89.4"
+  [[module.mounts]]
+    source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+    target = "assets/js/bootstrap.bundle.min.js"

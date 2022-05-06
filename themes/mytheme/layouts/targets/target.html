@@ -1,0 +1,54 @@
+{{ define "title" }}
+  {{ .Params.commonName }} &ndash; {{ .Site.Title }}
+{{ end }}
+{{ define "main" }}
+  <h1>{{ .Params.commonName }}</h1>
+  {{ if isset .Params "featureimage" }}
+    <figure class="figure">
+      <picture>
+        <img class="figure-img img-fluid" src="{{ .Params.featureImage }}" alt="{{ .Params.featureImageAlt }}">
+      </picture>
+      {{ if isset .Params "featureimagecap" }}
+        <figcaption class="figure-caption">{{ .Params.featureImageCap }}</figcaption>
+      {{ end }}
+    </figure>
+  {{ end }}
+  <table class="table">
+    <tr>
+      <th scope="row">Type</th>
+      <td>{{ .Params.objectType }}</td>
+    </tr>
+    <tr>
+      <th scope="row">Constellation</th>
+      <td>{{ .Params.constellation }}</td>
+    </tr>
+    <tr>
+      <th scope="row">Right Ascension</th>
+      <td>{{ partial "hms.html" .Params.rightAscension }}</td>
+    </tr>
+    <tr>
+      <th scope="row">Declination</th>
+      <td>{{ partial "dms.html" .Params.declination }}</td>
+    </tr>
+    <tr>
+      <th scope="row">Apparent Magnitude</th>
+      <td>{{ .Params.apparentMagnitude }}</td>
+    </tr>
+    <tr>
+      <th scope="row">Apparent Size</th>
+      <td>{{ .Params.apparentWidth }}' x {{ .Params.apparentHeight }}'</td>
+    </tr>
+  </table>
+  {{ .Content }}
+  <h2>My Photos</h2>
+  {{ range where .Pages "Section" "astrophotos" }}
+    <article>
+      <a href="{{ .RelPermalink }}">
+        <h2>{{ .Title }}</h2>
+      </a>
+      {{ .Summary }}
+    </article>
+  {{ else }}
+  <p>None yet, hopefully soon!</p>
+  {{ end }}
+{{ end }}
