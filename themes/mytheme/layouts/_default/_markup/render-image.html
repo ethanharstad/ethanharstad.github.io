@@ -1,0 +1,16 @@
+{{ warnf "%s - %s" .Page.File .Destination }}
+{{ $image := .Page.Resources.GetMatch (printf "%s" (.Destination | safeURL)) | fingerprint }}
+{{ warnf "%s passed" .Destination }}
+{{ $alt := .PlainText | safeHTML }}
+<figure class="figure">
+    <a href="{{ $image.RelPermalink }}">
+        <img class="figure-img img-fluid rounded" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}"
+            height="{{ $image.Height }}"
+            alt="{{ if $alt }}{{ $alt }}{{ else if .Title }}{{ .Title | safeHTML | markdownify | plainify }}{{ else }}&nbsp;{{ end }}" />
+    </a>
+    {{ with .Title }}
+    <figcaption class="figure-caption">
+        {{ . | markdownify }}
+    </figcaption>
+    {{ end }}
+</figure>
