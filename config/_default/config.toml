@@ -3,6 +3,7 @@ baseURL = "https://harstad.co/"
 title = "Ravings of a Mad Engineer"
 theme = "mytheme"
 disqusShortname = "madengineer"
+googleAnalytics = "G-DSLFFY0YVC"
 
 [taxonomies]
   category = 'categories'
