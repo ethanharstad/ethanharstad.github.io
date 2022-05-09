@@ -14,7 +14,6 @@ featureImageAlt: "Alt text"
 featureImageCap: "Image caption"
 thumbnail: "astrophoto_rig-thumb.jpg"
 featured: true
-summary: "The Sky-Watcher EQ6-R Pro is a German Equatorial telescope mount with many improvements over other mounts that make it ideal for astrophotography."
 ---
 
 The [Sky-Watcher EQ6-R Pro](https://www.skywatcherusa.com/products/eq6-r-pro) is a German Equatorial telescope mount with many improvements over other mounts that make it ideal for astrophotography.

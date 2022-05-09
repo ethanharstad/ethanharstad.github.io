@@ -2,14 +2,32 @@
 <h1>{{ .Title }}</h1>
 {{ .Content }}
 {{ range .Pages }}
-<article>
+<article class="mb-4 row">
   {{ if isset .Params "thumbnail" }}
-  <img class="img-fluid float-left" src="{{.RelPermalink}}{{ .Params.thumbnail }}" alt="{{ .Params.featureImageAlt }}">
+  <div class="col col-md-3">
+    <img class="img-fluid rounded" src="{{.RelPermalink}}{{ .Params.thumbnail }}" alt="{{ .Params.featureImageAlt }}">
+  </div>
   {{ end }}
-  <a href="{{ .RelPermalink }}">
-    <h2>{{ .Title }}</h2>
-  </a>
-  {{ .Summary }}
+  <div class="col">
+    <a href="{{ .RelPermalink }}">
+      <h2>
+        {{ .Title }}
+        {{ with .Params.subtitle }}
+        <small class="text-muted">{{ . }}</small>
+        {{ end }}
+      </h2>
+    </a>
+    <div class="mb-1 text-muted">
+      {{ .Page.Date.Format "January 2, 2006" }}
+      {{ with .Params.categories }}
+      {{ $category := print "/categories/" (index . 0) }}
+      {{ with $.Site.GetPage $category }}
+      in <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      {{ end }}
+      {{ end }}
+    </div>
+    {{ .Summary }}
+  </div>
 </article>
 {{ end }}
 {{ end }}

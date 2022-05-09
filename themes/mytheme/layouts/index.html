@@ -1,7 +1,7 @@
 {{ define "hero" }}
-<div class="row row-cols-1 row-cols-md-2 mb-4 mt-4">
+<div class="row mb-4 mt-4">
   {{ range first 2 ( where .Site.RegularPages ".Params.featured" "=" true ) }}
-  <div class="col">
+  <div class="col-md-6">
     <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
       <div class="col p-4 d-flex flex-column position-static">
         {{ with .Params.categories }}
@@ -12,12 +12,12 @@
         {{ end }}
         <h3 class="mb-0">{{ .Page.Title }}</h3>
         <div class="mb-1 text-muted">{{ .Page.Date.Format "January 2, 2006" }}</div>
-        <p class="card-text mb-auto">{{- .Page.Summary | safeHTML -}}</p>
+        <p class="card-text mb-auto">{{- .Page.Params.subtitle | safeHTML | truncate 50 -}}</p>
         <a href="{{ .Page.RelPermalink }}" class="stretched-link">Continue reading</a>
       </div>
       {{ with .Resources.GetMatch .Params.thumbnail }}
       <div class="col-auto d-none d-lg-block">
-        {{ $image := .Fill "300x300" }}
+        {{ $image := .Fill "200x250" }}
         <img class="img-fluid" src="{{ $image.RelPermalink }}">
       </div>
       {{ end }}
@@ -33,24 +33,33 @@
   {{ end }}
   {{.Content}}
   {{ range first 10 (where .Site.RegularPages "Section" "post") }}
-  <div>
-    <h3>
-      {{ .Title }}
-      {{ with .Params.subtitle }}
-      <small class="text-muted">{{ . }}</small>
-      {{ end }}
-    </h3>
-    <div class="mb-1 text-muted">
-      {{ .Page.Date.Format "January 2, 2006" }}
-      {{ with .Params.categories }}
-      {{ $category := print "/categories/" (index . 0) }}
-      {{ with $.Site.GetPage $category }}
-      in <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-      {{ end }}
-      {{ end }}
+  <article class="mb-4 row">
+    {{ if isset .Params "thumbnail" }}
+    <div class="col col-md-3">
+      <img class="img-fluid rounded" src="{{.RelPermalink}}{{ .Params.thumbnail }}" alt="{{ .Params.featureImageAlt }}">
     </div>
-    <p>{{ .Summary }}</p>
-  </div>
+    {{ end }}
+    <div class="col">
+      <a href="{{ .RelPermalink }}">
+        <h3>
+          {{ .Title }}
+          {{ with .Params.subtitle }}
+          <small class="text-muted">{{ . }}</small>
+          {{ end }}
+        </h3>
+      </a>
+      <div class="mb-1 text-muted">
+        {{ .Page.Date.Format "January 2, 2006" }}
+        {{ with .Params.categories }}
+        {{ $category := print "/categories/" (index . 0) }}
+        {{ with $.Site.GetPage $category }}
+        in <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{ end }}
+        {{ end }}
+      </div>
+      {{ .Summary }}
+    </div>
+  </article>
   {{ end }}
 </main>
 {{ end }}
