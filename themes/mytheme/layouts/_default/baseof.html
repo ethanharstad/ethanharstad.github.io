@@ -26,12 +26,10 @@
   <div class="container">
     {{- block "hero" . -}}{{- end -}}
     <div class="row">
-      <div class="col col-md-9">
+      <div class="col">
         {{- block "main" . -}}{{- end -}}
       </div>
-      <div class="col col-md-3">
-        {{- block "sidebar" . -}}{{- end -}}
-      </div>
+      {{- block "sidebar" . -}}{{- end -}}
     </div>
   </div>
   {{- partial "footer.html" . -}}
