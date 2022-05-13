@@ -23,6 +23,9 @@
 
 <body>
   {{- partial "header.html" . -}}
+  {{ if not .IsHome }}
+  {{- partial "breadcrumb.html" . -}}
+  {{ end }}
   <div class="container">
     {{- block "hero" . -}}{{- end -}}
     <div class="row">
