@@ -1,6 +1,4 @@
-{{ warnf "%s - %s" .Page.File .Destination }}
 {{ $image := .Page.Resources.GetMatch (printf "%s" (.Destination | safeURL)) | fingerprint }}
-{{ warnf "%s passed" .Destination }}
 {{ $alt := .PlainText | safeHTML }}
 <figure class="figure">
     <a href="{{ $image.RelPermalink }}">
