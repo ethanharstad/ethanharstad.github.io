@@ -40,12 +40,25 @@
     {{ end }}
   </div>
 </main>
-<script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
-  integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"
-  async></script>
 {{ end }}
 {{ define "sidebar" }}
 <div class="col col-md-3">
-  <p>Blah blah blah</p>
+  <div class="list-group">
+    <div class="list-group-item">
+      <h3>About</h3>
+      {{ with .GetPage "about" }}
+      {{ .Summary }}
+      {{ end }}
+    </div>
+    <div class="list-group-item">
+      <h3>Social</h3>
+      {{ partial "social.html" . }}
+    </div>
+  </div>
 </div>
+{{ end }}
+{{ define "body-end" }}
+<script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+  integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"
+  async></script>
 {{ end }}

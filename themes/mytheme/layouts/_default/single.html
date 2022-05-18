@@ -29,6 +29,12 @@
 {{ $related := .Site.RegularPages.Related . | first 5 }}
 <div class="col col-md-3">
   <div class="list-group">
+    <div class="list-group-item">
+      <h3>About</h3>
+      {{ with .GetPage "about" }}
+      {{ .Summary }}
+      {{ end }}
+    </div>
     {{ with $related }}
     <div class="list-group-item">
       <h3>See Also</h3>
@@ -39,6 +45,10 @@
       </ul>
     </div>
     {{ end }}
+    <div class="list-group-item">
+      <h3>Social</h3>
+      {{ partial "social.html" . }}
+    </div>
   </div>
 </div>
 {{ end }}
