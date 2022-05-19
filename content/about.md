@@ -1,6 +1,6 @@
 ---
 title: "About"
-description: "An engineer prone to wild flights of fancy and deep dives down Wikipedia until I learn something new."
+summary: "An engineer prone to wild flights of fancy and deep dives down Wikipedia until I learn something new."
 aliases:
   - "contact"
 menu:
@@ -9,4 +9,22 @@ menu:
 comments: false
 ---
 
-Some more casual about content is coming soon.
+{{< notice "dark" >}}
+If you are interested in my professionally you may be more interested in my [resume](/resume).
+{{< /notice >}}
+
+## Hobbies
+
+### Making
+
+### Amateur Radio
+
+### Firefighting/EMS
+
+### Astrophotography
+
+## Projects
+
+### Fire/EMS Management Application
+
+### Solid State Cosmic Ray Detection

@@ -6,11 +6,21 @@ comments: false
 
 ## Ethan E. Harstad
 
+Please contact me through [LinkedIn](https://www.linkedin.com/in/ethanharstad/) if you would like to network with me.
+
 ### Employment
 
 #### Senior Principal Engineer - Athene
 
-**2020 - Present**
+**2021 - Present**
+
+Advocate for and build tooling around progressive development practices: automated testing, continuous delivery, DevOps, 12 factor design.
+Lead the Tech Lead Community of Practice with the mission of empowering tech leads to more effectively support their development teams through the introduction of patterns and standard libraries.
+Member of the Cloud Center of Excellence, responsible for standards and training development, evangelizing cloud technologies and modern SDLC practices, and consulting with teams to design their applications in the cloud.
+
+#### Engineering Manager - Athene
+
+**2020 - 2021**
 
 Responsible for technical direction and development of Athene's containerization initiative including greenfield development, migration and enhancement of existing internal and vendor applications, and management of the admin and operations team.
 Member of the Cloud Center of Excellence, responsible for standards and training development, evangelizing cloud technologies and modern SDLC practices, and consulting with teams to design their applications in the cloud.
@@ -19,11 +29,20 @@ Member of the Cloud Center of Excellence, responsible for standards and training
 
 **2019 - 2020**
 
-Bio coming soon
+Lead the architectural design of a cross platform application for fully data driven data collection, reporting, and project management.
+Developed the framework for the application in Dart with the Flutter framework to support iOS, Android, web, and desktop clients.
+Utilized Azure and Firebase backend systems to ensure data consistency in an offline capable environment.
+Implemented an on-premise high performance compute cluster for image processing and big data analysis.
 
 #### Principal Software Engineer - Granular
 
-**2017 - 2019**
+**2018 - 2019**
+
+Full stack engineer with focus on Python based microservices and big data pipelines with Angular based front end clients.
+
+#### Senior Software Engineer - Granular
+
+**2017 - 2018**
 
 Full stack engineer with focus on Python based microservices and big data pipelines with Angular based front end clients.
 
@@ -51,11 +70,40 @@ Design and fabricate aerospace systems: spacecraft structures, robotics.
 **2012 - 2014**
 
 Manage other student engineers and lab students.
-Train and assist lab members with engineering and fabrication activities.
+Train and assist lab members with electrical, mechanical and software engineering and fabrication activities.
+Develop and lead space systems research projects.
 
 #### Student Engineer - Space Systems and Controls Lab, Iowa State University
 
 **2010 - 2012**
 
-Support lab members with engineering and fabrication activities.
-Manage lab students.
+Support lab students and faculty with electrical, mechanical and software engineering and fabrication activities.
+Participate in space systems research projects.
+
+### Community
+
+#### Secretary - Boone Firefighters Association
+
+**2019 - Present**
+
+#### Secretary/Webmaster/Technologist - Stratospheric Ballooning Association
+
+**2013 - 2018**
+
+### Presentations/Publications
+
+#### Building a Global Scale Image Processing Pipeline - DevOpsDays Des Moines 2018
+
+#### GPUs and Spot Fleet Workloads Chalk Talk - AWS ReInvent 2017
+
+#### An Integrated Online HAB System for Prediction and Telemetry - Academic High Altitude Conference 2015
+
+#### Online High Altitude Ballooning Portal - Academic High Altitude Conference 2014
+
+#### Zero Pressure Ballooning Methods for Academic Studies - Academic High Altitude Conference 2013
+
+#### High Resolution Balloon Trajectory Prediction Methods - Academic High Altitude Conference 2012
+
+#### Analysis of High Altitude Balloon Trajectory Prediction Methods - Academic High Altitude Conference 2011
+
+#### Modular Electronics System for High Altitude Balloons and Small Satellites - Academic High Altitude Conference 2010

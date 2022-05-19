@@ -34,7 +34,8 @@
     <div class="list-group-item">
       <h3>About</h3>
       {{ with .GetPage "about" }}
-      {{ .Summary }}
+      <p>{{ .Summary }}</p>
+      <a href="{{ .RelPermalink }}" class="text-decoration-none text-muted">Read More</a>
       {{ end }}
     </div>
     {{ with $related }}
