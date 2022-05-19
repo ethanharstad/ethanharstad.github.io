@@ -1,0 +1,5 @@
+<h3>About</h3>
+{{ with .GetPage "about" }}
+<p>{{ .Summary }}</p>
+<a href="{{ .RelPermalink }}" class="text-decoration-none text-muted">Read More</a>
+{{ end }}
