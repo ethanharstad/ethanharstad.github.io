@@ -8,7 +8,9 @@
   <small class="text-muted">{{ . }}</small>
   {{ end }}
 </h1>
-<div class="mb-1 text-muted">{{ .Page.Date.Format "January 2, 2006" }}</div>
+{{ with .Page.Date }}
+<div class="mb-1 text-muted">{{ .Format "January 2, 2006" }}</div>
+{{ end }}
 {{ if isset .Params "featureimage" }}
 <figure class="figure">
   <picture>
