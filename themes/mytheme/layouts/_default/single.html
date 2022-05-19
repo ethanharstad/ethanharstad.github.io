@@ -30,27 +30,29 @@
 {{ define "sidebar" }}
 {{ $related := .Site.RegularPages.Related . | first 5 }}
 <div class="col col-md-3">
-  <div class="list-group">
-    <div class="list-group-item">
-      <h3>About</h3>
-      {{ with .GetPage "about" }}
-      <p>{{ .Summary }}</p>
-      <a href="{{ .RelPermalink }}" class="text-decoration-none text-muted">Read More</a>
-      {{ end }}
-    </div>
-    {{ with $related }}
-    <div class="list-group-item">
-      <h3>See Also</h3>
-      <ul class="list-unstyled">
-        {{ range . }}
-        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+  <div class="sticky-top" style="top: 1rem;">
+    <div class="list-group">
+      <div class="list-group-item">
+        <h3>About</h3>
+        {{ with .GetPage "about" }}
+        <p>{{ .Summary }}</p>
+        <a href="{{ .RelPermalink }}" class="text-decoration-none text-muted">Read More</a>
         {{ end }}
-      </ul>
-    </div>
-    {{ end }}
-    <div class="list-group-item">
-      <h3>Social</h3>
-      {{ partial "social.html" . }}
+      </div>
+      {{ with $related }}
+      <div class="list-group-item">
+        <h3>See Also</h3>
+        <ul class="list-unstyled">
+          {{ range . }}
+          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+      <div class="list-group-item">
+        <h3>Social</h3>
+        {{ partial "social.html" . }}
+      </div>
     </div>
   </div>
 </div>
