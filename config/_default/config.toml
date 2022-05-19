@@ -5,12 +5,32 @@ theme = "mytheme"
 disqusShortname = "madengineer"
 googleAnalytics = "G-DSLFFY0YVC"
 
+[params]
+  logo = 'icon-logo.svg'
+
 [taxonomies]
   category = 'categories'
   series = 'series'
   target = 'targets'
   image-series = 'image-series'
   image-session = 'image-sessions'
+
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = true
+[[related.indices]]
+  name = 'series'
+  weight = 100
+[[related.indices]]
+  name = 'categories'
+  weight = 100
+[[related.indices]]
+  name = 'tags'
+  weight = 80
+[[related.indices]]
+  name = 'date'
+  weight = 10
 
 ############################# Modules ##############################
 [module]

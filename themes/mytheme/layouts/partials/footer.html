@@ -1,17 +1,15 @@
-<footer class="footer static-bottom bg-dark">
-
-  <div class="row footer-text">
-    <div class="col-12 col-md text-center text-md-left nav-link text-white">Copyright &copy; {{ .Site.Copyright }} {{
-      dateFormat "2006" now }}</div>
-  </div>
-
-  <!-- JavaScript and dependencies -->
-
-  {{ $bootstrap := resources.Get "js/bootstrap.bundle.min.js" }}
-  {{ $js := slice $bootstrap | resources.Concat "js/bundle.js" | resources.Minify }}
-
-  <script src="{{$js.RelPermalink}}" defer></script>
-  {{ if and hugo.IsProduction .Site.GoogleAnalytics }}
-  {{ template "_internal/google_analytics.html" . }}
-  {{ end }}
+<footer class="d-flex flex-wrap justify-content-betwen align-items-center py-3 my-4 border-top">
+  <p class="col-md-4 mb-0 text-muted">Copyright &copy; {{ .Site.Copyright }} {{ dateFormat "2006" now }}</p>
+  <a class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none"
+    href="{{ .Site.BaseURL }}">
+    <img src="{{ .Site.BaseURL }}/{{ .Site.Params.logo }}" height="24" class="">
+  </a>
+  <ul class="nav col-md-4 justify-content-end">
+    <li class="nav-item">
+      <a href="{{ .Site.BaseURL }}" class="nav-link px-2 text-muted">Home</a>
+    </li>
+    <li class="nav-item">
+      <a href="{{ (.GetPage " about").Permalink }}" class="nav-link px-2 text-muted">About</a>
+    </li>
+  </ul>
 </footer>

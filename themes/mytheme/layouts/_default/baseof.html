@@ -17,12 +17,15 @@
 
   {{ $style := resources.Get "sass/main.scss" | toCSS $options | minify }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}" media="screen">
-
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
   <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
 </head>
 
 <body>
   {{- partial "header.html" . -}}
+  {{ if not .IsHome }}
+  {{- partial "breadcrumb.html" . -}}
+  {{ end }}
   <div class="container">
     {{- block "hero" . -}}{{- end -}}
     <div class="row">
@@ -31,8 +34,10 @@
       </div>
       {{- block "sidebar" . -}}{{- end -}}
     </div>
+    {{- partial "footer.html" . -}}
   </div>
-  {{- partial "footer.html" . -}}
+  {{- partial "body-end.html" -}}
+  {{- block "body-end" . -}}{{- end -}}
 </body>
 
 </html>

@@ -32,37 +32,33 @@
   <h2>{{.}}</h2>
   {{ end }}
   {{.Content}}
-  {{ range first 10 (where .Site.RegularPages "Section" "post") }}
-  <article class="mb-4 row">
-    {{ if isset .Params "thumbnail" }}
-    <div class="col col-md-3">
-      <img class="img-fluid rounded" src="{{.RelPermalink}}{{ .Params.thumbnail }}" alt="{{ .Params.featureImageAlt }}">
+  <div class="row" data-masonry='{"percentPosition": true }'>
+    {{ range first 10 ( where .Site.RegularPages "Section" "in" (slice "post" "astrophotos") ) }}
+    <div class="col-sm-6 col-lg-4 mb-4">
+      {{ .Render "card" }}
     </div>
     {{ end }}
-    <div class="col">
-      <a href="{{ .RelPermalink }}">
-        <h3>
-          {{ .Title }}
-          {{ with .Params.subtitle }}
-          <small class="text-muted">{{ . }}</small>
-          {{ end }}
-        </h3>
-      </a>
-      <div class="mb-1 text-muted">
-        {{ .Page.Date.Format "January 2, 2006" }}
-        {{ with .Params.categories }}
-        {{ $category := print "/categories/" (index . 0) }}
-        {{ with $.Site.GetPage $category }}
-        in <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-        {{ end }}
-        {{ end }}
-      </div>
-      {{ .Summary }}
-    </div>
-  </article>
-  {{ end }}
+  </div>
 </main>
 {{ end }}
 {{ define "sidebar" }}
-<p>Blah blah blah</p>
+<div class="col col-md-3">
+  <div class="list-group">
+    <div class="list-group-item">
+      <h3>About</h3>
+      {{ with .GetPage "about" }}
+      {{ .Summary }}
+      {{ end }}
+    </div>
+    <div class="list-group-item">
+      <h3>Social</h3>
+      {{ partial "social.html" . }}
+    </div>
+  </div>
+</div>
+{{ end }}
+{{ define "body-end" }}
+<script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+  integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"
+  async></script>
 {{ end }}
