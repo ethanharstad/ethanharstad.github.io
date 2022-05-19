@@ -1,5 +1,6 @@
 +++
 title = "Basic LRGB Astrophotography Processing"
+draft = true
 date = "2022-04-06"
 description = "A basic LRGB processing workflow with DeepSkyStacker."
 tags = [

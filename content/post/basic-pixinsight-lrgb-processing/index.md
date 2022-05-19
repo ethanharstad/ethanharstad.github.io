@@ -1,5 +1,6 @@
 +++
 title = "Basic LRGB Astrophotography Processing in PixInsight"
+draft = true
 date = "2022-04-06"
 description = ""
 tags = [
