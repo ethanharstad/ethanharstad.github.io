@@ -45,10 +45,7 @@
 <div class="col-lg-3">
   <div class="list-group">
     <div class="list-group-item">
-      <h3>About</h3>
-      {{ with .GetPage "about" }}
-      {{ .Summary }}
-      {{ end }}
+      {{ partial "about-block.html" . }}
     </div>
     <div class="list-group-item">
       <h3>Social</h3>

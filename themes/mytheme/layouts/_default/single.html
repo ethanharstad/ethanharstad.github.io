@@ -33,11 +33,7 @@
   <div class="sticky-top" style="top: 1rem;">
     <div class="list-group">
       <div class="list-group-item">
-        <h3>About</h3>
-        {{ with .GetPage "about" }}
-        <p>{{ .Summary }}</p>
-        <a href="{{ .RelPermalink }}" class="text-decoration-none text-muted">Read More</a>
-        {{ end }}
+        {{ partial "about-block.html" . }}
       </div>
       {{ with $related }}
       <div class="list-group-item">
