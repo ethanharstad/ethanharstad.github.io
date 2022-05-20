@@ -4,10 +4,10 @@
 {{ define "main" }}
 <h1>
   {{ .Title }}
-  {{ with .Params.subtitle }}
-  <small class="text-muted">{{ . }}</small>
-  {{ end }}
 </h1>
+{{ with .Params.subtitle }}
+<p class="lead">{{ . }}</p>
+{{ end }}
 {{ with .Page.Date }}
 <div class="mb-1 text-muted">{{ .Format "January 2, 2006" }}</div>
 {{ end }}
