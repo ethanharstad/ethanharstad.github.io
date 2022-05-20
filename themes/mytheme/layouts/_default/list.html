@@ -1,7 +1,24 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
 {{ .Content }}
-{{ range .Pages }}
+{{ template "_internal/pagination.html" . }}
+{{ range .Paginator.Pages }}
 {{ .Render "summary" }}
 {{ end }}
+{{ template "_internal/pagination.html" . }}
+{{ end }}
+{{ define "sidebar" }}
+<div class="col col-lg-3">
+    <div class="sticky-top" style="top: 1rem;">
+        <div class="list-group">
+            <div class="list-group-item">
+                {{ partial "about-block.html" . }}
+            </div>
+            <div class="list-group-item">
+                <h3>Social</h3>
+                {{ partial "social.html" . }}
+            </div>
+        </div>
+    </div>
+</div>
 {{ end }}
