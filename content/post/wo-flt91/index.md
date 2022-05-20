@@ -1,18 +1,19 @@
-+++
-title = "William Optics Fluorostar 91mm"
-date = "2022-03-30"
-description = ""
-tags = [
-    "astrophotography",
-    "equipment",
-    "telescopes",
-    "reviews",
-]
-categories = [
-    "astrophotography",
-]
-featureImage = "fluorostar91.jpg"
-+++
+---
+title: "William Optics Fluorostar 91mm"
+date: "2022-03-30"
+description: ""
+tags:
+  - "astrophotography"
+  - "equipment"
+  - "telescopes"
+  - "reviews"
+categories:
+  - "astrophotography"
+featureImage: "wo-flt91.jpg"
+featureImageAlt: "My William Optics Fluorostar 91 telescope"
+featureImageCap: "My William Optics Fluorostar 91 telescope"
+thumbnail: "wo-flt91.jpg"
+---
 
 I recently acquired the William Optics Fluorostar 91 as both a visual and imaging telescope.
 I selected this model because of the excellent optical quality, large number of included accessories and the avaliability of multiple options of field flatteners from William Optics.
