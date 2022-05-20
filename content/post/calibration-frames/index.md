@@ -52,7 +52,7 @@ Put lens cap on and take many exposures with the same settings as your flats.
 
 Take the same number as your flats.
 
-![Calibration Process](./Calibration_Full.jpg "Full calibration process from Deep Sky Stacker")
+![Calibration Process](Calibration_Full.jpg "Full calibration process from Deep Sky Stacker")
 
 ## Tips
 
