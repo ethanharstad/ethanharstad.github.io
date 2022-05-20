@@ -1,5 +1,10 @@
-+++
-aliases = ["posts", "articles", "blog", "showcase", "docs"]
-title = "Posts"
-tags = ["index"]
-+++
+---
+aliases: 
+  - posts
+  - articles
+  - blog
+title: Posts
+menu:
+  main:
+    weight: 10
+---
