@@ -1,25 +1,39 @@
-+++
-title = "Astrophotography Resources"
-date = "2022-04-08"
-description = ""
-tags = [
-    "astrophotography",
-]
-categories = [
-    "astrophotography",
-]
-series = ["Learning Astrophotography"]
-+++
+---
+title: "Astrophotography Resources"
+date: "2022-04-08"
+description: "A collection of astrophotography resources that I have found useful."
+tags:
+  - "astrophotography"
+categories:
+  - "astrophotography"
+series:
+  - "Learning Astrophotography"
+featureImage: "astronomy_tools_fov.png"
+featureImageAlt: "Astronomy Tools FoV calculator output"
+feautreImageCap: "A sample of what the Astronomy Tools website can provide"
+thumbnail: "astronomy_tools_fov.png"
+summary: "A collection of astrophotography resources that I have found useful."
+---
 
-why would anyone want this
+## Other Content Creators
 
-<!--more-->
+### James Lamb YouTube Channel
+
+[Link](https://www.youtube.com/user/Aero19612)
+
+### Cuiv, The Lazy Geek YouTube Channel
+
+[Link](https://www.youtube.com/c/CuivTheLazyGeek)
 
 ## Planning Software
 
 ### Astronomy Tools
 
-[Link](http://deepskystacker.free.fr/english/index.html)
+[Link](https://astronomy.tools/)
+
+### Clear Outside
+
+[Link](http://clearoutside.com/)
 
 ### Stellarium
 
