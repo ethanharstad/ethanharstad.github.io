@@ -9,10 +9,10 @@ tags:
 categories:
   - "astrophotography"
 series: "Learning Astrophotography"
-featureImage: "astrophoto_rig.jpg"
-featureImageAlt: "Alt text"
-featureImageCap: "Image caption"
-thumbnail: "astrophoto_rig-thumb.jpg"
+featureImage: "manual_cover.jpg"
+featureImageAlt: "EQ6-R Mount manual cover page"
+featureImageCap: "You can throw this away if you read this page instead..."
+thumbnail: "manual_cover.jpg"
 featured: true
 ---
 
