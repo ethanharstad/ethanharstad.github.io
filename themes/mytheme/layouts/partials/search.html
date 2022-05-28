@@ -1,0 +1,18 @@
+<form class="d-flex" id="search" role="search">
+    <div class="input-group">
+        <input id="search-input" class="form-control" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-primary" type="submit">
+            <i class="bi bi-search"></i>
+        </button>
+    </div>
+</form>
+
+<template id="search-result" hidden>
+    <article class="content post">
+        <h2 class="post-title"><a class="summary-title-link"></a></h2>
+        <summary class="summary"></summary>
+        <div class="read-more-container">
+            <a class="read-more-link">{{ i18n "readMore" }} »</a>
+        </div>
+    </article>
+</template>

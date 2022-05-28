@@ -9,6 +9,14 @@ googleAnalytics = "G-DSLFFY0YVC"
   logo = 'icon-logo.svg'
   paginate = 10
 
+[outputFormats]
+  [outputFormats.SearchIndex]
+    baseName = 'search'
+    mediaType = 'application/json'
+
+[outputs]
+  home = ['HTML', 'RSS', 'SearchIndex']
+
 [taxonomies]
   category = 'categories'
   series = 'series'
@@ -41,3 +49,6 @@ googleAnalytics = "G-DSLFFY0YVC"
   [[module.mounts]]
     source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
     target = "assets/js/bootstrap.bundle.min.js"
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
