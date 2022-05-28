@@ -1,20 +1,20 @@
-+++
-title = "Basic LRGB Astrophotography Processing in PixInsight"
-draft = true
-date = "2022-04-06"
-description = ""
-tags = [
-    "astrophotography",
-    "image processing",
-    "pixinsight",
-    "lrgb",
-]
-categories = [
-    "astrophotography",
-]
-series = ["Learning Astrophotography"]
-featureImage = "image-processing.jpg"
-+++
+---
+title: "Basic LRGB Astrophotography Processing in PixInsight"
+draft: true
+date: "2022-04-06"
+description: ""
+tags:
+  - "astrophotography"
+  - "image processing"
+  - "pixinsight"
+  - "lrgb"
+categories:
+  - "astrophotography"
+series:
+  - "Learning Astrophotography"
+featureImage: "image-processing.jpg"
+toc: true
+---
 
 Blah blah blah
 
