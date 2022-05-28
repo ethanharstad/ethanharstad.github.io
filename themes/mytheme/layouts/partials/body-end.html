@@ -1,9 +1,6 @@
 {{ $search := resources.Get "js/search.js" | js.Build }}
 {{ $bootstrap := resources.Get "js/bootstrap.bundle.min.js" }}
-{{/*
 {{ $js := slice $bootstrap $search | resources.Concat "js/bundle.js" | resources.Minify }}
-*/}}
-{{ $js := slice $bootstrap $search | resources.Concat "js/bundle.js" }}
 
 <script src="https://unpkg.com/lunr/lunr.js"></script>
 

@@ -84,7 +84,7 @@ window.addEventListener("DOMContentLoaded", event => {
 
             lookup = {};
             index = lunr(function() {
-                const language = "{{ .Site.Language.Lang }}";
+                const language = "en";
                 if (language != "en" && lunr.hasOwnProperty(language)) {
                     this.use(lunr[language]);
                 }
