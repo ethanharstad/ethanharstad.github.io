@@ -9,13 +9,38 @@ categories = [
     "astrophotography",
 ]
 series = ["Learning Astrophotography"]
-featureImage = "calibration.jpg"
+featureImage = "Calibration_Full.jpg"
 draft = true
 +++
 
 Blah
 
 <!--more-->
+
+```mermaid
+flowchart LR
+    bias[Bias]
+    masterBias[Master Bias]
+    bias-- Integration -->masterBias
+    dark[Dark]
+    masterDark[Master Dark]
+    masterBias-- Subtration -->masterDark
+    dark-- Integration -->masterDark
+    darkFlat[Dark Flat]
+    masterDarkFlat[MasterDarkFlat]
+    masterDark-- Subtraction -->masterDarkFlat
+    darkFlat-- Integration -->masterDarkFlat
+    flat[Flat]
+    masterFlat[Master Flat]
+    masterDarkFlat-- Subtraction -->masterFlat
+    flat-- Integration -->masterFlat
+    light[Light]
+    final[Calibrated]
+    masterBias-- Subtraction -->final
+    masterDark-- Subtraction -->final
+    masterFlat-- Division -->final
+    light-->final
+```
 
 ## Bias Frames
 

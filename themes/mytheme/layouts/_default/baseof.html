@@ -21,7 +21,8 @@
   <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
 
   {{ range .AlternativeOutputFormats -}}
-    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+  {{ printf `
+  <link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
   {{ end -}}
 </head>
 
@@ -40,7 +41,7 @@
     </div>
     {{- partial "footer.html" . -}}
   </div>
-  {{- partial "body-end.html" -}}
+  {{- partial "body-end.html" . -}}
   {{- block "body-end" . -}}{{- end -}}
 </body>
 
