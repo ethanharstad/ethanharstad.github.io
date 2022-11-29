@@ -10,7 +10,7 @@ comments: false
 ---
 
 {{< notice "dark" >}}
-If you are interested in my professionally you may be more interested in my [resume](/resume).
+If you are interested in me professionally you may be more interested in my [resume](/resume).
 {{< /notice >}}
 
 ## Hobbies
