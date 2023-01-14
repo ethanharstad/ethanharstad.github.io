@@ -8,6 +8,16 @@ comments: false
 
 Please contact me through [LinkedIn](https://www.linkedin.com/in/ethanharstad/) if you would like to network with me.
 
+### Certifications
+
+**Google Cloud: Professional Cloud DevOps Engineer**
+
+[Verification](https://www.credential.net/8d622d8e-99b0-48fb-a365-2d024013222a)
+
+**HashiCorp: Terraform Associate**
+
+[Verification](https://www.credly.com/badges/d7624965-8c38-49a0-b0a9-b14ff566b7fb/public_url)
+
 ### Employment
 
 #### Senior Principal Engineer - Athene
