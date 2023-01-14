@@ -20,9 +20,15 @@ Please contact me through [LinkedIn](https://www.linkedin.com/in/ethanharstad/) 
 
 ### Employment
 
+#### Staff Cloud Engineer - [Ocelot Consulting](https://www.ocelotconsulting.com/)
+
+**2022 - Present**
+
+Cloud engineering consulting with specialty in DevOps, Site Reliability Engineering, Cloud Native Architecture, on-premises to cloud migrations, breaking monoliths, data pipelines and all things cloud.
+
 #### Senior Principal Engineer - Athene
 
-**2021 - Present**
+**2021 - 2022**
 
 Advocate for and build tooling around progressive development practices: automated testing, continuous delivery, DevOps, 12 factor design.
 Lead the Tech Lead Community of Practice with the mission of empowering tech leads to more effectively support their development teams through the introduction of patterns and standard libraries.
