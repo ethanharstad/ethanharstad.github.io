@@ -10,9 +10,22 @@ Please contact me through [LinkedIn](https://www.linkedin.com/in/ethanharstad/) 
 
 ### Employment
 
+#### Senior Architecture Manager - Accenture AWS
+
+**2024 - Present**
+
+In May of 2024, Ocelot Consulting was acquired by the Accenture AWS Business Group. I transitioned to a Senior Architecture Manager where I was both an independent contributor and project manager for various projects across AWS, GCP, and Azure.
+
+#### Staff Cloud Engineer - Ocelot Consulting
+
+**2022 - 2024**
+
+Cloud Engineering Consultant across AWS, GCP and Azure.
+Responsible for cloud architecture and implementation of various large scale solutions in big data, AI/ML/LLM, user facing applications and platform solutions.
+
 #### Senior Principal Engineer - Athene
 
-**2021 - Present**
+**2021 - 2022**
 
 Advocate for and build tooling around progressive development practices: automated testing, continuous delivery, DevOps, 12 factor design.
 Lead the Tech Lead Community of Practice with the mission of empowering tech leads to more effectively support their development teams through the introduction of patterns and standard libraries.

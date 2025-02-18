@@ -10,7 +10,7 @@ comments: false
 ---
 
 {{< notice "dark" >}}
-If you are interested in my professionally you may be more interested in my [resume](/resume).
+If you are interested in me professionally you may be more interested in my [resume](/resume).
 {{< /notice >}}
 
 ## Hobbies
@@ -23,8 +23,12 @@ If you are interested in my professionally you may be more interested in my [res
 
 ### Astrophotography
 
+### Scuba Diving
+
 ## Projects
 
 ### Fire/EMS Management Application
 
 ### Solid State Cosmic Ray Detection
+
+### Off Grid Distributed Mesh Communications
