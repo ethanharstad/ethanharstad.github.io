@@ -8,6 +8,16 @@ comments: false
 
 Please contact me through [LinkedIn](https://www.linkedin.com/in/ethanharstad/) if you would like to network with me.
 
+### Certifications
+
+**Google Cloud: Professional Cloud DevOps Engineer**
+
+[Verification](https://www.credential.net/8d622d8e-99b0-48fb-a365-2d024013222a)
+
+**HashiCorp: Terraform Associate**
+
+[Verification](https://www.credly.com/badges/d7624965-8c38-49a0-b0a9-b14ff566b7fb/public_url)
+
 ### Employment
 
 #### Senior Architecture Manager - Accenture AWS
@@ -20,8 +30,7 @@ In May of 2024, Ocelot Consulting was acquired by the Accenture AWS Business Gro
 
 **2022 - 2024**
 
-Cloud Engineering Consultant across AWS, GCP and Azure.
-Responsible for cloud architecture and implementation of various large scale solutions in big data, AI/ML/LLM, user facing applications and platform solutions.
+Cloud engineering consulting with specialty in DevOps, Site Reliability Engineering, Cloud Native Architecture, on-premises to cloud migrations, breaking monoliths, data pipelines and all things cloud.
 
 #### Senior Principal Engineer - Athene
 
